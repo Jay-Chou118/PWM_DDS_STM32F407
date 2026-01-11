@@ -1,0 +1,24 @@
+# Keil MDK generated files
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.hex
+*.htm
+*.lnp
+*.sct
+*.lst
+*.map
+*.plg
+*.build_log.htm
+*.bak
+*.uvguix.*
+JLinkLog.txt
+*.iex
+
+# Folders (根据你的工程结构，通常 OBJ 和 LIST 文件夹不需要上传)
+CORE/
+HARDWARE/
+SYSTEM/
+USER/

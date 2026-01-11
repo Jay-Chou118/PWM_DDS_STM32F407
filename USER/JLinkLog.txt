@@ -1,0 +1,147 @@
+T9960 000:236.401   SEGGER J-Link V7.96t Log File
+T9960 000:236.615   DLL Compiled: Jul 11 2024 09:13:33
+T9960 000:236.629   Logging started @ 2025-03-04 12:53
+T9960 000:236.643   Process: C:\Users\MI\AppData\Local\Keil_v5\UV4\UV4.exe
+T9960 000:236.660 - 236.654ms
+T9960 000:236.679 JLINK_SetWarnOutHandler(...)
+T9960 000:236.691 - 0.013ms
+T9960 000:236.705 JLINK_OpenEx(...)
+T9960 000:242.891   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T9960 000:244.257   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T9960 000:244.503   Decompressing FW timestamp took 187 us
+T9960 000:253.263   Hardware: V9.40
+T9960 000:253.317   S/N: 69404894
+T9960 000:253.339   OEM: SEGGER
+T9960 000:253.361   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T9960 000:254.595   Bootloader: (Could not read)
+T9960 000:255.903   TELNET listener socket opened on port 19021
+T9960 000:256.433   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T9960 000:256.864   WEBSRV Webserver running on local port 19080
+T9960 000:257.195   Looking for J-Link GUI Server exe at: C:\Users\MI\AppData\Local\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T9960 000:257.570   Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink_V796t\JLinkGUIServer.exe
+T9960 000:257.744   Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink_V796t\JLinkGUIServer.exe
+T9960 000:430.576   J-Link GUI Server info: "J-Link GUI server V7.96t "
+T9960 000:437.409 - 200.694ms returns "O.K."
+T9960 000:437.471 JLINK_GetEmuCaps()
+T9960 000:437.491 - 0.018ms returns 0xB9FF7BBF
+T9960 000:437.511 JLINK_TIF_GetAvailable(...)
+T9960 000:437.759 - 0.247ms
+T9960 000:437.782 JLINK_SetErrorOutHandler(...)
+T9960 000:437.796 - 0.013ms
+T9960 000:437.851 JLINK_ExecCommand("ProjectFile = "C:\Users\MI\Desktop\实验3 串口通信实验\USER\JLinkSettings.ini"", ...). 
+T9960 000:464.997   Ref file found at: C:\Users\MI\AppData\Local\Keil_v5\ARM\Segger\JLinkDevices.ref
+T9960 000:465.695   REF file references invalid XML file: C:\Program Files\SEGGER\JLink_V796t\JLinkDevices.xml
+T9960 000:468.532 - 30.682ms returns 0x00
+T9960 000:468.587 JLINK_ExecCommand("Device = STM32F407ZGTx", ...). 
+T9960 000:469.285   Device "STM32F407ZG" selected.
+T9960 000:470.290 - 1.685ms returns 0x00
+T9960 000:470.325 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T9960 000:470.344   ERROR: Unknown command
+T9960 000:470.361 - 0.020ms returns 0x01
+T9960 000:470.383 JLINK_GetHardwareVersion()
+T9960 000:470.398 - 0.016ms returns 94000
+T9960 000:470.415 JLINK_GetDLLVersion()
+T9960 000:470.428 - 0.013ms returns 79620
+T9960 000:470.441 JLINK_GetOEMString(...)
+T9960 000:470.454 JLINK_GetFirmwareString(...)
+T9960 000:470.465 - 0.011ms
+T9960 000:470.485 JLINK_GetDLLVersion()
+T9960 000:470.497 - 0.011ms returns 79620
+T9960 000:470.509 JLINK_GetCompileDateTime()
+T9960 000:470.521 - 0.012ms
+T9960 000:470.536 JLINK_GetFirmwareString(...)
+T9960 000:470.548 - 0.012ms
+T9960 000:471.289 JLINK_GetHardwareVersion()
+T9960 000:471.337 - 0.047ms returns 94000
+T9960 000:471.359 JLINK_GetSN()
+T9960 000:471.374 - 0.014ms returns 69404894
+T9960 000:471.409 JLINK_GetOEMString(...)
+T9960 000:471.431 JLINK_TIF_Select(JLINKARM_TIF_JTAG)
+T9960 000:472.794 - 1.363ms returns 0x00
+T9960 000:472.822 JLINK_HasError()
+T9960 000:472.852 JLINK_SetSpeed(5000)
+T9960 000:472.952 - 0.101ms
+T9960 000:473.690 JLINK_HasError()
+T9960 000:473.726 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T9960 000:473.742 - 0.015ms returns JLINKARM_RESET_TYPE_NORMAL
+T9960 000:473.769 JLINK_Reset()
+T9960 000:474.226   InitTarget() start
+T9960 000:474.270    J-Link Script File: Executing InitTarget()
+T9960 000:474.540   JTAG selected. Identifying JTAG Chain...
+T9960 000:475.889   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T9960 000:476.302   Error: Scanning JTAG chain failed.
+T9960 000:476.340   Can not attach to CPU. Trying connect under reset.
+T9960 000:527.584   JTAG selected. Identifying JTAG Chain...
+T9960 000:529.174   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T9960 000:529.817   Error: Scanning JTAG chain failed.
+T9960 000:529.954   Connecting to CPU via connect under reset failed.
+T9960 000:581.382   InitTarget() end - Took 107ms
+T9960 000:581.549   Connect failed. Resetting via Reset pin and trying again.
+T9960 000:643.512   InitTarget() start
+T9960 000:643.660    J-Link Script File: Executing InitTarget()
+T9960 000:644.109   JTAG selected. Identifying JTAG Chain...
+T9960 000:645.398   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T9960 000:645.889   Error: Scanning JTAG chain failed.
+T9960 000:645.954   Can not attach to CPU. Trying connect under reset.
+T9960 000:696.948   JTAG selected. Identifying JTAG Chain...
+T9960 000:698.313   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T9960 000:698.790   Error: Scanning JTAG chain failed.
+T9960 000:698.845   Connecting to CPU via connect under reset failed.
+T9960 000:749.353   InitTarget() end - Took 105ms
+T9960 000:749.432 - 275.663ms
+T9960 000:749.674 JLINK_GetIdData(pIdData)
+T9960 000:749.958   InitTarget() start
+T9960 000:750.002    J-Link Script File: Executing InitTarget()
+T9960 000:750.209   JTAG selected. Identifying JTAG Chain...
+T9960 000:751.331   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T9960 000:751.660   Error: Scanning JTAG chain failed.
+T9960 000:751.696   Can not attach to CPU. Trying connect under reset.
+T9960 000:803.132   JTAG selected. Identifying JTAG Chain...
+T9960 000:804.602   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T9960 000:804.986   Error: Scanning JTAG chain failed.
+T9960 000:805.035   Connecting to CPU via connect under reset failed.
+T9960 000:855.267   InitTarget() end - Took 105ms
+T9960 000:855.358   Connect failed. Resetting via Reset pin and trying again.
+T9960 000:917.837   InitTarget() start
+T9960 000:918.033    J-Link Script File: Executing InitTarget()
+T9960 000:918.788   JTAG selected. Identifying JTAG Chain...
+T9960 000:920.606   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T9960 000:921.267   Error: Scanning JTAG chain failed.
+T9960 000:921.339   Can not attach to CPU. Trying connect under reset.
+T9960 000:972.267   JTAG selected. Identifying JTAG Chain...
+T9960 000:974.164   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T9960 000:974.723   Error: Scanning JTAG chain failed.
+T9960 000:974.790   Connecting to CPU via connect under reset failed.
+T9960 001:025.989   InitTarget() end - Took 107ms
+T9960 001:026.143 - 276.469ms
+T9960 001:026.194 JLINK_GetIdData(pIdData)
+T9960 001:026.590   InitTarget() start
+T9960 001:026.648    J-Link Script File: Executing InitTarget()
+T9960 001:026.843   JTAG selected. Identifying JTAG Chain...
+T9960 001:027.992   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T9960 001:028.466   Error: Scanning JTAG chain failed.
+T9960 001:028.521   Can not attach to CPU. Trying connect under reset.
+T9960 001:078.901   JTAG selected. Identifying JTAG Chain...
+T9960 001:080.633   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T9960 001:082.056   Error: Scanning JTAG chain failed.
+T9960 001:082.116   Connecting to CPU via connect under reset failed.
+T9960 001:132.477   InitTarget() end - Took 105ms
+T9960 001:132.623   Connect failed. Resetting via Reset pin and trying again.
+T9960 001:195.157   InitTarget() start
+T9960 001:195.333    J-Link Script File: Executing InitTarget()
+T9960 001:195.815   JTAG selected. Identifying JTAG Chain...
+T9960 001:197.442   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T9960 001:198.308   Error: Scanning JTAG chain failed.
+T9960 001:198.489   Can not attach to CPU. Trying connect under reset.
+T9960 001:249.230   JTAG selected. Identifying JTAG Chain...
+T9960 001:251.232   TotalIRLen = ?, IRPrint = 0x..000000000000000000000000
+T9960 001:252.245   Error: Scanning JTAG chain failed.
+T9960 001:252.339   Connecting to CPU via connect under reset failed.
+T9960 001:302.758   InitTarget() end - Took 107ms
+T9960 001:302.956 - 276.761ms
+T9960 001:321.891 JLINK_GetFirmwareString(...)
+T9960 001:322.046 - 0.155ms
+T9960 003:142.790 JLINK_Close()
+T9960 003:155.560 - 12.769ms
+T9960 003:155.620   
+T9960 003:155.637   Closed
